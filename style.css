@@ -56,12 +56,6 @@ nav li {
     margin-left: 20px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
 .full-width-image {
     max-width: 100%;
     margin-left: 0.5px;
@@ -71,10 +65,46 @@ main {
     margin-bottom: 25px;
 }
 
-p {
-    font-size: 16px;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+    padding: 10px;
     margin: 10px;
-    pad: 50px;
+    background-color: #2589bd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    order: 1;
+}
+
+.sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+section p, aside p {
+    font-size: 16px;
+    margin: 20px;
+    color: white;
+} 
+
+section .image-left {
+    max-width: 45%;
+    margin-right: 20px;
+    height: auto;
+    float: left;
+}
+
+section .image-right {
+    max-width: 45%;
+    margin-left: 20px;
+    height: auto;
+    float: right;
 }
 
 .123 {
