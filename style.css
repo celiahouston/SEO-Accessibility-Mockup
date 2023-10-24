@@ -6,11 +6,13 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 
 header {
     background-color: #2A607C;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,15 +21,24 @@ header {
     float: right;
 }
 
-ul { 
+#banner {
+    font-size: 20px;
+}
+
+header ul { 
     list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .full-width-image {
