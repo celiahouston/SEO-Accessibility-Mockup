@@ -14,11 +14,6 @@ header {
     background-color: #2A607C;
     text-align: left;
     padding: 20px;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
 }
 
 #banner {
@@ -58,18 +53,20 @@ nav li {
 
 .full-width-image {
     max-width: 100%;
-    margin-left: 0.5px;
-    background-image: url(Images/digital-marketing-meeting.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 25px;
+    margin-left: 0.5rem;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    width: 100%;
 }
+
+sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+} 
 
 section {
     flex: 1;
@@ -81,20 +78,13 @@ section {
     order: 1;
 }
 
-.sections {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 section h2, aside h3 {
-    font-size: 15px;
+    font-size: 1.5em;
     margin: 20px;
     color: white;
 }
 
 section p, aside p {
-    font-size: 16px;
     margin: 20px;
     color: white;
 } 
@@ -114,7 +104,7 @@ section .image-right {
 }
 
 aside {
-    flex: ;
+    flex:0 0 30%;
     padding: 20px;
     margin: 20px;
     background-color: #0072BB;
@@ -130,22 +120,9 @@ aside img {
     display: block;
 }
 
-
-
 .benefits {
     margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size: 20px;
-    background-color: #2589bd;
-    text-align: center;
 }
-
 
 .footer {
     padding: 30px;
@@ -153,9 +130,6 @@ aside img {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #000;
-}
-
-.footer h2 {
     font-size: 20px;
 }
 
