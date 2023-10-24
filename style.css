@@ -87,6 +87,12 @@ section {
     flex-direction: column;
 }
 
+section h2, aside h3 {
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+}
+
 section p, aside p {
     font-size: 16px;
     margin: 20px;
@@ -107,15 +113,24 @@ section .image-right {
     float: right;
 }
 
-.123 {
-    margin-bottom: 20px;
-    padding: 200px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+aside {
+    flex: ;
+    padding: 20px;
+    margin: 20px;
+    background-color: #0072BB;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
     display: block;
 }
+
+
 
 .benefits {
     margin-right: 20px;
@@ -131,17 +146,13 @@ section .image-right {
     text-align: center;
 }
 
-img {
-    max-width: 50%;
-    height: auto;
-    margin-left: 0.5rem;
-} 
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #000;
 }
 
 .footer h2 {
